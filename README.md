@@ -25,7 +25,6 @@ Does not send a second signal. Of course, when a wire receives the signal, it st
 at once.
 
 Function: 
-
 Srand () and rand () to generate random numbers (be careful: make sure the wires do not generate
 
 Not all the same numbers!);
@@ -35,5 +34,5 @@ Not all the same numbers!);
 • kill () and signal () for sending and receiving signals;
 
 • open (), close () and write () for writing the log by the parent;
-Pipe () for connection between wires and dad
+• pipe () for connection between wires and dad ;
 
